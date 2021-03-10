@@ -2,3 +2,12 @@
 // these are the conditions to ride:
 // be at least 1.5 m, or 1.2 if accompanied
 // have no heart condition
+const canIRide= (height, isAccompanied, hasHeartCondition) =>{
+    if ((height >=1.5 || (height>1.2 && isAccompanied)) && !hasHeartCondition){
+        return true
+    }else{
+        return false
+    }
+}
+
+console.log(canIRide(1.3, true, false));

@@ -2,3 +2,8 @@
 // i.e: add25Cents(7)
 // 1.75
 // which is: 0.25+0.25+0.25+0.25+0.25+0.25+0.25
+
+
+const add25Cents= number => number*0.25;
+
+console.log (add25Cents(7))
