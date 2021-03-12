@@ -12,3 +12,14 @@ function stepByStep(number){
 }
 
 stepByStep(10)
+
+// SECOND WAY
+function stepByStep(number){
+  let array=[]
+  for (let i =0; i <= number;i++){
+    array.push(i)
+  }
+   console.log (array.join(''))
+}
+
+stepByStep(5)
