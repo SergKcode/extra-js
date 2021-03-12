@@ -9,3 +9,16 @@ function printStringFourTimes(word){
 }
 
 printStringFourTimes("HolaMundo")
+
+
+//SECOND WAY
+
+function printStringFourTimes(word){
+    for (let i = 0; i < 4; i++) {
+        console.log(word);
+    }
+
+
+}
+
+printStringFourTimes("HolaMundo")
