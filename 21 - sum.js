@@ -13,3 +13,14 @@ function sum(number){
     return finalResult
 }
 console.log(sum(4))
+
+//SECOND WAY
+function sum(number){
+    let finalResult=0
+      for(i=0; i<number-1; i++){
+        finalResult=number+ i
+        
+      }
+    return finalResult
+  }
+  console.log(sum(4))
