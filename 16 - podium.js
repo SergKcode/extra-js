@@ -19,3 +19,23 @@ function podium(position){
 }
 
 podium(1)
+
+/* SECOND WAY */
+function podium(position) {
+  switch (position) {
+    case 1:
+      return `gold`;
+      break;
+    case 2:
+      return `silver`;
+      break;
+    case 3:
+      return `bronze`;
+      break;
+    default:
+      return `keep trying!`;
+      break;
+  }
+}
+
+podium(5);
