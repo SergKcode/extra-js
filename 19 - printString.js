@@ -12,3 +12,18 @@ function printString (number, string){
 }
 
 printString(2, "helloWorld")
+
+//SECOND WAY
+
+function printString (number, string){
+    let newString="";
+    for(let i =0; i<number; i++){
+      newString += string;
+      
+    }
+    console.log (newString)
+  }
+  
+  printString(3, "blue")
+  
+  
