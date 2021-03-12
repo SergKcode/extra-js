@@ -17,3 +17,14 @@ function canIGoToTheBank (d,t){
     }   
 }
 
+/* SECOND WAY */
+openDays=["monday", "tuesday", "wednesday","thursday","friday"];
+
+function canIGoToTheBank (d,t){
+    if (t <18 && t >= 10 && openDays.includes(d)){
+        return true
+    }else{
+        return false
+    }   
+}
+console.log(canIGoToTheBank("friday",15));
